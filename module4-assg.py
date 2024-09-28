@@ -3,12 +3,12 @@
 # Adults aged 18 years and older: Tickets are priced at $60.
 # Seniors aged 55 years and older: Special pricing applies, with tickets priced at $50.
 
-print("\nWelcome to Python Park")
+print("\nWelcome to Python Park🐍")
 age = int(input("Insert your age: "))
 price = 0
 
 if age < 5:
-    exit()
+    price = 0
 elif age < 18:
     price = 20
 elif age >= 18 and age < 55:
@@ -16,5 +16,4 @@ elif age >= 18 and age < 55:
 else:
     price = 50
 
-print(f'Your ticket cost is ${price}')
-print("Enjoy!")
+print(f'Your ticket cost is ${price}. Enjoy!')
