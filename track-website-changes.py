@@ -3,7 +3,8 @@ import hashlib
 import time
 
 # URL of the website to track
-url = "https://www.apple.com/newsroom/"
+# url = "https://www.apple.com/newsroom/"
+url = "https://github.com/carlosreyes00/python-files-college"
 
 # File to store the hash of the page content
 hash_file = "apple_newsroom_page_hash.txt"
